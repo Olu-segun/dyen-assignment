@@ -1,25 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './logo.svg';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <>
+    
+    <header className='bani'>
+    <img src={logo} className="App-logo" alt="logo" />
+    </header>
+      <br/>
+    <div className='form'>
+      <h2>Log in to your account</h2>
+
+      <p>Don’t have an account? &nbsp; &nbsp; <a href='createaccount.com'>Get Started</a> </p> 
+      
+      <br/>
+
+      <label id='Email'>Email:</label>
+      <br/>
+
+      <input name='Email'  placeholder='Enter your email address'></input>
+      <br/>
+      <br/>
+      <label id='password'>Password: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+      <a href='forgotpassword.com'>Forgot Password</a></label>
+      <br/>
+      
+      <input name='password' placeholder='Enter your password'></input>
+      
+      <br/>
+      <br/>
+
+      <button> <a className='buttonlink' href='https://glowing-gnome-fd582e.netlify.app/dashboard'>Login</a></button>
+
     </div>
-  );
+    
+  
+    
+    
+    </>
+    
+  )
+    
+     
+  
 }
 
 export default App;
