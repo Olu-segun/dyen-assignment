@@ -1,58 +1,93 @@
-.bani {
-  text-align: center;
-  padding-top: 30px;
+*{
+  box-sizing: border-box;
+  margin-left: 3px;
+  padding: 0px;
+  color: black;
+  
+  
 }
-.form{
-  border: 1px solid whitesmokes;
+
+a:link, .Left{
+  text-decoration: none;
+}
+
+.Top{
+  border: 1px solid green;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  flex-direction: row;
+  
+}
+
+.hamburger{
+  
+  position: absolute;
+  left: 5px;
+
+}
+
+
+.audio{
+  position: absolute;
+  right: 400px;
+}
+
+.bell{
+  position: absolute;
+  right: 50px;
+}
+
+
+.Left{
+  line-height: 40px;
+  font-size: 15px;;
+  font-weight: 200;
+  width: 200px;
+}
+
+.Subscriptions{
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+}
+
+.Navbar{
+  margin-left: 0px;
+
+  
+  
+  
+  
+}
+
+.Middle {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 0px;
+}
+
+iframe {
   border-radius: 10px;
-  background-color: whitesmoke;
-  width: 320px;
-  height: 320px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 5px;
-  padding-bottom: 25px;
-  
-  
+}
+
+.Videos{
+  margin-left: 100px;
 }
 
 
-a{
-  text-decoration-line: none;
-  color: blue;
-  
-}
-
-input{
-  width: 320px;
-  height: 30px;
-  border: 1px solid black;
+.nav-link {
+  background-color: rgb(240, 235, 235);
+  border: 1px solid rgb(230, 225, 225);
   border-radius: 5px;
-  line-height: 10px;
-  ;
-}
-
-
-
-
-button, button.a{
-  border: 0px solid rgb(59, 105, 245);
-  background-color: rgb(59, 105, 245);
-  width: 320px;
-  height: 30px;
-  color: white;
-  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  padding: 2px;
+  margin-right: 8px;
   
 }
 
-button:hover{
-  cursor: pointer;
-  
-  
+.nav-link:active {
+  background-color: black;
 }
-
-.buttonlink{
-color: white;
-font-size: 15px;
-}
-
